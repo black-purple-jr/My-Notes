@@ -4,7 +4,6 @@
 body{
     background-color:#121212;
     color: rgb(204, 204, 204);
-    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
     font-family: "Montserrat", sans-serif;
 
 
@@ -37,7 +36,7 @@ div{
 .container-box{
     display: grid;
     grid-template-columns: 290px 290px 290px;
-    grid-template-rows: 220px 220px;
+    grid-template-rows: 200px 200px;
 
     
     
@@ -49,12 +48,12 @@ div{
     padding-top: 0;
     border-radius: 10px;
     width:auto;
-    height: auto;
+    /* height: auto; */
     margin:10px;
     background-color: #1d1d1d;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
     padding-bottom:5px ;
     cursor: pointer;
 
@@ -63,6 +62,8 @@ div{
 .small-box:hover{
     box-shadow: 3px 3px 11px black;
     border:1px solid #3a3a3a;
+    transform: translateY(-3%);
+    transition: 0.25s;
 }
 .big-box{
     margin: auto;
@@ -75,6 +76,7 @@ div{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
     
 }
 .plus-box p{
@@ -85,5 +87,10 @@ div{
 .plus-box:hover{
     transform: scale(115%);
     transition: 1s;
+    cursor: pointer;
     
 }
+a{
+    text-decoration: none;
+}
+
