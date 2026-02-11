@@ -35,11 +35,9 @@ div{
 }
 .container-box{
     display: grid;
-    grid-template-columns: 290px 290px 290px;
-    grid-template-rows: 200px 200px;
-
-    
-    
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 800px;
 
 }
 .small-box{
@@ -47,13 +45,8 @@ div{
     padding:20px;
     padding-top: 0;
     border-radius: 10px;
-    width:auto;
-    /* height: auto; */
     margin:10px;
     background-color: #1d1d1d;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-evenly; */
     padding-bottom:5px ;
     cursor: pointer;
 
